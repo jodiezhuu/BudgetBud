@@ -3,7 +3,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 
 const Info = () =>  {
-<<<<<<< HEAD
+
 	var iName = "";
 	var iMoney = "";
 	var iTax = "";
@@ -68,7 +68,7 @@ const Info = () =>  {
 			<button type="button" onClick={onClick}>Submit</button>
 		</div>
 	)
-=======
+
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => console.log(data);
   
@@ -120,7 +120,6 @@ const Info = () =>  {
         <input type="submit" />
       </form>
     );
->>>>>>> e2f601dc8b3f8a6f40d52bc5dea470931c531075
 }
 
 export default Info
