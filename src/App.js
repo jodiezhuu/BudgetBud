@@ -3,6 +3,9 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Intro from './components/Intro';
 import Info from './components/Info';
+import Savings from './components/Savings';
+import Expenditures from './components/Savings';
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
