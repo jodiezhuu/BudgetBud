@@ -15,6 +15,8 @@ function App() {
       <Navbar />
       <Intro />
       <Info />
+      <Savings />
+	<Expenditures />
       <Switch>
         <Route path='/' />
       </Switch>
