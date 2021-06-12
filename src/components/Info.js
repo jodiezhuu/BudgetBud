@@ -1,9 +1,35 @@
 import './Info.css';
 
 const Info = () =>  {
+	var iName = "";
+	var iMoney = "";
+	var iTax = "";
+	var iPhone = "";
+	var iElec = "";
+	var iRent = "";
+	var iNet = "";
+	var iInsure = "";
+	var iCar = "";
+	var iMort = "";
+	var iWater = "";
+	var iSub = "";
+	var iFun = "";
 
 	const onClick = () => {
-		
+		iName = document.getElementById("username").value;
+		iMoney = document.getElementById("salary").value;
+		iTax = document.getElementById("tax").value;
+		iPhone = document.getElementById("phoneBill").value;
+		iElec = document.getElementById("electricity").value;
+		iRent = document.getElementById("rent").value;
+		iNet = document.getElementById("internet").value;
+		iInsure = document.getElementById("insurance").value;
+		iCar = document.getElementById("carpay").value;
+		iMort = document.getElementById("mortgage").value;
+		iWater = document.getElementById("water").value;
+		iSub = document.getElementById("subs").value;
+		iFun = document.getElementById("entertainment").value;
+
 	}
 	
 	return (
