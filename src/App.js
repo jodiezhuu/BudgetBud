@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Intro from './components/Intro';
 import Info from './components/Info';
 import Savings from './components/Savings';
-import Expenditures from './components/Savings';
+import Expenditures from './components/Expenditures';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -16,7 +16,7 @@ function App() {
       <Intro />
       <Info />
       <Savings />
-	<Expenditures />
+	    <Expenditures />
       <Switch>
         <Route path='/' />
       </Switch>
