@@ -22,3 +22,16 @@
     margin-right: 20%;
 }
 
+@media only screen and (max-width:1024px) {
+  .homepage{
+    font-size: 30px;
+    height: 225px;
+    font-weight: bold;
+  }
+
+  .description{
+    font-size: 15px;
+    margin-left: 10%;
+    margin-right:10%;
+  }
+}
