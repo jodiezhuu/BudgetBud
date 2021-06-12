@@ -1,5 +1,7 @@
 .infoSection{    
-    background: linear-gradient(90deg, rgb(234, 231, 220) 0%, rgb(234, 231, 220) 100%);
+    background: linear-gradient(90deg, rgb(216,195,165) 0%, rgb(216,195,165) 100%);
+    float: left;
+    width: 20%;
     /*height: 100px;
     display: flex;
     justify-content: center;
