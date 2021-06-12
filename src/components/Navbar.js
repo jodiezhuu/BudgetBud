@@ -11,10 +11,9 @@ function Navbar() {
     return (
         <>
             <div className="navbar">
-                <div className="navbar-container container">
+                <div className="navbar-container">
                     <Link to='/' className='navbar-logo'>
-                        <GiMoneyStack className='navbar-icon' />
-                        BudgetBuddy
+                    <img className='logo' src={process.env.PUBLIC_URL + "/images/logobud.jpg"} alt="Logo"></img>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                     {click ? <FaMoneyCheck className='close' /> : <FaRegMoneyBillAlt className='close' />}
