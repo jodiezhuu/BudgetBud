@@ -1,6 +1,6 @@
 const Info = () =>  {
 	return (
-		<div>
+		<div classname = "infoSection">
 			<form>
 				<input type="text" id = "username" name = "uName"/>
 				<input type="text" id = "salary" name = "uMoney"/>
