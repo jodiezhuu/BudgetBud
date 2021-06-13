@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+## Inspiration
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The inspiration for this project was to get an easy way for people to get budgeting. We often notice in our lives that we can overspend in one area. Using our tools, individuals grasp a better understanding of what they can use the money for.
 
-## Available Scripts
+## What it does
 
-In the project directory, you can run:
+After users input their costs, BudgetBud returns back a recommended amount for individuals to save and how much they should spend each month.
 
-### `npm start`
+## How we built it
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+BudgetBud was built on React.JS. The distinct parts are divided into components allowing the team to work on each component. It also allowed for better organization.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Challenges we ran into
 
-### `npm test`
+We were unfamiliar with how to use git and spent a fair amount of time on dealing with pull/push issues. Additionally, we faced complications on how to actually update the elements on the page after getting user information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Accomplishments that we're proud of
 
-### `npm run build`
+Getting the information from the user to the different sections.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## What we learned
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+We learned how to use git, states in JavaScript, and how to work together as a team on a coding project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## What's next for BudgetBud
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For BudgetBud, next, we would like to setup more flexible types of earning. For example, do you want to save 50% and spend 50% or save 20% and spend 80%? We also want to add predetermined profiles; such as "student" and BudgetBud will use data on how students should spend their money and the extra costs associated with them (textbooks, etc.). Finally, we would also like to add an account feature where users can return back and see their budget over time. It also allows them to keep track of their budgets. With the account feature, we'd like to see a PDF export so that users can also have a local copy to refer to the budget.
