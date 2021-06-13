@@ -43,8 +43,8 @@ const Info = () =>  {
         <p className='form'>Mortgage</p>
         <input className='input' {...register("budgetBud.Mortgage")} />
 
-        <p className='form'>Entertainment</p>
-        <input className='input' {...register("budgetBud.Entertainment")} />
+        <p className='form'>Food</p>
+        <input className='input' {...register("budgetBud.Food")} />
 	<div><br/><br/><br/><br/><br/></div>
       </form>
     );
