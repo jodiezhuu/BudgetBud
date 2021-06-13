@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
+    /**react router dom works for switching pages but for scrolling react-scroll can be used instead */
     <Router>
       <Navbar />
       <Switch>
