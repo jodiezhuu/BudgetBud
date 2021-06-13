@@ -14,20 +14,10 @@ function App() {
     /**react router dom works for switching pages but for scrolling react-scroll can be used instead */
     <Router>
       <Navbar />
-      <Switch>
-        <Route path='/intro' >
-          <Intro />
-        </Route>
-        <Route path='/info' >
-          <Info />
-        </Route>
-        <Route path='/savings' >
-          <Savings />
-        </Route>
-        <Route path='/expenditures' >
-          <Expenditures />
-        </Route>
-      </Switch>
+      <Intro /> 
+      <Info />
+      <Savings />
+      <Expenditures />
     </Router>
   );
 }
