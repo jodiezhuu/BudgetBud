@@ -19,22 +19,22 @@ function Navbar() {
                     {click ? <FaMoneyCheck className='close' /> : <FaRegMoneyBillAlt className='close' />}
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                        <li>
+                        <li onClick='nav-menu'>
                         <Link to='/intro' className='nav-links'>
                             About Us
                         </Link>
                         </li>
-                        <li>
+                        <li onClick='nav-menu'>
                         <Link to='/info' className='nav-links'>
                             Personal Info
                         </Link>
                         </li>
-                        <li>
+                        <li onClick='nav-menu'>
                         <Link to='/expenditures' className='nav-links'>
                             Calculated Expenditures
                         </Link>
                         </li>
-                        <li>
+                        <li onClick='nav-menu'>
                         <Link to='/savings' className='nav-links'>
                             Calculated Savings
                         </Link>
