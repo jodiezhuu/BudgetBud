@@ -12,9 +12,6 @@ const Info = () =>  {
     return (
       <form className='infoSection'
 	  onSubmit={handleSubmit(onSubmit)}>
-        <p className='form'>Name</p>
-        <input className='input'
-		{...register("budgetBud.Name")} />
 
         <p className='form'>Salary</p>
         <input className='input'
@@ -31,8 +28,8 @@ const Info = () =>  {
         <p className='form'>Phone</p>
         <input className='input' {...register("budgetBud.Phone")} />
 
-        <p className='form'>Electricity</p>
-        <input className='input' {...register("budgetBud.Electricity")} />
+        <p className='form'>Utilities</p>
+        <input className='input' {...register("budgetBud.Utilities")} />
 
         <p className='form'>Rent</p>
         <input className='input' {...register("budgetBud.Rent")} />
@@ -46,16 +43,9 @@ const Info = () =>  {
         <p className='form'>Mortgage</p>
         <input className='input' {...register("budgetBud.Mortgage")} />
 
-        <p className='form'>Water Bill</p>
-        <input className='input' {...register("budgetBud.WaterBill")} />
-
-        <p className='form'>Subscriptions</p>
-        <input className='input' {...register("budgetBud.Subscriptions")} />
-
         <p className='form'>Entertainment</p>
         <input className='input' {...register("budgetBud.Entertainment")} />
-
-        <input type="submit" />
+	<div><br/><br/><br/><br/><br/></div>
       </form>
     );
 }
