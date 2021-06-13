@@ -1,0 +1,28 @@
+.savings{
+    float: right;
+    width: 70%;
+    height: 500px;
+    background-color: #d8c3a5;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 7000;
+    padding-top: 2rem;
+    color: white;
+}
+
+.caption{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.progresscirclesav{
+    align-items: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    max-width: 30%;
+}
+
