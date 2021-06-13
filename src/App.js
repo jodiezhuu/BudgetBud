@@ -13,12 +13,19 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Intro />
-      <Info />
-      <Savings />
-	    <Expenditures />
       <Switch>
-        <Route path='/' />
+        <Route path='/intro' >
+          <Intro />
+        </Route>
+        <Route path='/info' >
+          <Info />
+        </Route>
+        <Route path='/savings' >
+          <Savings />
+        </Route>
+        <Route path='/expenditures' >
+          <Expenditures />
+        </Route>
       </Switch>
     </Router>
   );

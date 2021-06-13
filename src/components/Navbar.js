@@ -20,22 +20,22 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li>
-                        <Link to='/' className='nav-links'>
+                        <Link to='/intro' className='nav-links'>
                             About Us
                         </Link>
                         </li>
                         <li>
-                        <Link to='/' className='nav-links'>
+                        <Link to='/info' className='nav-links'>
                             Personal Info
                         </Link>
                         </li>
                         <li>
-                        <Link to='/' className='nav-links'>
+                        <Link to='/expenditures' className='nav-links'>
                             Calculated Expenditures
                         </Link>
                         </li>
                         <li>
-                        <Link to='/' className='nav-links'>
+                        <Link to='/savings' className='nav-links'>
                             Calculated Savings
                         </Link>
                         </li>
