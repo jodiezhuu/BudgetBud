@@ -27,3 +27,23 @@
     justify-content: center;
     margin-left: 10%;
 }
+
+@media only screen and (max-width:1024px) {
+    .infoSection{
+        width: 100%;
+    }
+
+    .form{
+        font-size: 20px;
+        line-height: 0.5;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .input{
+        width: 60%;
+        align-items: center;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
