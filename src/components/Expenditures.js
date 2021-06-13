@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { buildStyles, CircularProgressbar } from 'react-circular-progressbar';
+import { buildStyles, CircularProgressbar, CircularProgressbarWithChildren } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import './Expenditure.css'
 
@@ -19,9 +19,24 @@ const Expenditures = () => {
                     textColor: '#8E8D8A',
                     pathColor: '#ad9c84',
                 })
-
                 }
                 />
+                {/* Overlapping progress bar*/}
+                <CircularProgressbarWithChildren
+                    value={80}
+                    styles={buildStyles({
+                    pathColor: "#f00",
+                    trailColor: "#eee",
+                    })}
+                >
+                    {/* Foreground path */}
+                    <CircularProgressbar
+                    value={70}
+                    styles={buildStyles({
+                        trailColor: "transparent",
+                    })}
+                    />
+                </CircularProgressbarWithChildren>
             </div>
         </>
     );
