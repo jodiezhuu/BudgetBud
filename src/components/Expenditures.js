@@ -20,7 +20,7 @@ const Expenditures = () => {
                 <h2 className="expcaption">Recommended amount for other spending: {0.40*exp}</h2>
 
                 <button onClick={() => setExp(
-			(document.getElementsByClassName("input")[0].value - 
+			(document.getElementsByClassName("input")[0].value 
 			- document.getElementsByClassName("input")[1].value
 			- document.getElementsByClassName("input")[2].value
 			- document.getElementsByClassName("input")[3].value
@@ -28,16 +28,7 @@ const Expenditures = () => {
 			- document.getElementsByClassName("input")[5].value
 			- document.getElementsByClassName("input")[6].value
 			- document.getElementsByClassName("input")[7].value
-			- document.getElementsByClassName("input")[8].value) - 
-            ((document.getElementsByClassName("input")[0].value - 
-			- document.getElementsByClassName("input")[1].value
-			- document.getElementsByClassName("input")[2].value
-			- document.getElementsByClassName("input")[3].value
-			- document.getElementsByClassName("input")[4].value
-			- document.getElementsByClassName("input")[5].value
-			- document.getElementsByClassName("input")[6].value
-			- document.getElementsByClassName("input")[7].value
-			- document.getElementsByClassName("input")[8].value)/4)
+			- document.getElementsByClassName("input")[8].value)*3/4 
 		)}>
                         Update Values
                 </button> 
