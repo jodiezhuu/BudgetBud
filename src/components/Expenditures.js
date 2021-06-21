@@ -19,7 +19,8 @@ const Expenditures = () => {
                 <h2 className="expcaption">Recommended amount for emergancy fund: {0.20*exp}</h2>
                 <h2 className="expcaption">Recommended amount for other spending: {0.40*exp}</h2>
 
-                <button onClick={() => setExp(
+                <button className = "buttonCenter" onClick={() => setExp(
+
 			(document.getElementsByClassName("input")[0].value 
 			- document.getElementsByClassName("input")[1].value
 			- document.getElementsByClassName("input")[2].value
