@@ -1,10 +1,14 @@
 ## Inspiration
 
-The inspiration for this project was to get an easy way for people to get budgeting. We often notice in our lives that we can overspend in one area. Using our tools, individuals grasp a better understanding of what they can use the money for.
+The inspiration for this project was to provide an easy way for people to budget. We often notice in our lives that we can overspend in one area. Using our tools, individuals grasp a better understanding of what they can use the money for.
+
+![Screen Shot 2022-01-15 at 2 34 06 PM](https://user-images.githubusercontent.com/82774370/149635446-adaeb836-2854-4e2b-afdc-76e579da282c.png)
 
 ## What it does
 
 After users input their costs, BudgetBud returns back a recommended amount for individuals to save and how much they should spend each month.
+
+![Screen Shot 2022-01-15 at 2 35 49 PM](https://user-images.githubusercontent.com/82774370/149635499-5eca2eef-a8c5-4e65-9a6b-dde1b551abd6.png)
 
 ## How we built it
 
