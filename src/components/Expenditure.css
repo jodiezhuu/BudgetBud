@@ -27,7 +27,16 @@
 }
 
 .buttonCenter{
-	transform: translate(450%, 0px);	
+	margin-left: 45%;
+    color: white;
+    background-color: #ad9c84;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px;
+}
+
+.buttonCenter:hover {
+    opacity: 55%;
 }
 
 @media only screen and (max-width:1024px) {

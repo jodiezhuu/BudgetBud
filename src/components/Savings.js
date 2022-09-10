@@ -23,7 +23,7 @@ const Savings = () => {
 
         }   
             />  
-        <button onClick={() => setSave(
+        <button className = 'savingsUpdateButton' onClick={() => setSave(
 		(document.getElementsByClassName("input")[0].value
                         - document.getElementsByClassName("input")[1].value
                         - document.getElementsByClassName("input")[2].value

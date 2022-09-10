@@ -13,11 +13,11 @@ const Expenditures = () => {
                 <h1 className='exptitle'>Total Expenditure</h1>
                 <h2 className='expcaption'>Here, you can see your expenditures for the month.</h2>
 
-                <h2 className="expcaption">Recommended amount for entertainment: {0.15*exp}</h2>
-                <h2 className="expcaption">Recommended amount for clothes: {0.05*exp}</h2>
-                <h2 className="expcaption">Recommended amount for medical savings: {0.20*exp}</h2>
-                <h2 className="expcaption">Recommended amount for emergancy fund: {0.20*exp}</h2>
-                <h2 className="expcaption">Recommended amount for other spending: {0.40*exp}</h2>
+                <h2 className="expcaption">Recommended amount for entertainment: {parseFloat(0.15*exp).toFixed(2)}</h2>
+                <h2 className="expcaption">Recommended amount for clothes: {parseFloat(0.05*exp).toFixed(2)}</h2>
+                <h2 className="expcaption">Recommended amount for medical savings: {parseFloat(0.20*exp).toFixed(2)}</h2>
+                <h2 className="expcaption">Recommended amount for emergancy fund: {parseFloat(0.20*exp).toFixed(2)}</h2>
+                <h2 className="expcaption">Recommended amount for other spending: {parseFloat(0.40*exp).toFixed(2)}</h2>
 
                 <button className = "buttonCenter" onClick={() => setExp(
 

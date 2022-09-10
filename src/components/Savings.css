@@ -26,6 +26,19 @@
     max-width: 300px;
 }
 
+.savingsUpdateButton {
+    color: white;
+    background-color: #ad9c84;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.savingsUpdateButton:hover {
+    opacity: 55%;
+}
+
 @media only screen and (max-width:1024px) {
     .savings{
         width: 100%;
