@@ -1,3 +1,5 @@
+Check out the website: https://budgetbud.vercel.app/
+
 ## Inspiration
 
 The inspiration for this project was to provide an easy way for people to budget. We often notice in our lives that we can overspend in one area. Using our tools, individuals grasp a better understanding of what they can use the money for.
